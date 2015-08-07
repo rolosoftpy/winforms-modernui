@@ -37,6 +37,7 @@ namespace MetroFramework.Demo
         private void metroButton1_Click(object sender, EventArgs e)
         {
             MetroTaskWindow.ShowTaskWindow(this,"SubControl in TaskWindow", new TaskWindowControl(), 10);
+            metroTabPage5.AllowClose = true;
         }
 
         private void metroButton2_Click(object sender, EventArgs e)
